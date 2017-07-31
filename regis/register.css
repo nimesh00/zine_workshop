@@ -1,0 +1,25 @@
+div.heading {
+    display: block;
+    position: absolute;
+    line-height: 1.5em;
+    width: 100%;
+    background: rgba(0,0,0,0.3);
+    margin-top: 1em;
+    text-align: center;
+}
+
+h1
+{
+	
+  background: white;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+	height:60px;
+	padding-top: 14px;
+}
+
+div.form_container{
+    display:block;
+    position: relative;
+    margin-top: 10%;
+}

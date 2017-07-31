@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Register for workshop 2017</title>
+        <link rel="stylesheet" href="register.css" type="text/css">
+    </head>
+    
+    <body>
+        <div class="container">
+        <div class="heading">
+            <div id="heading_text">
+                <h1>Registration for workshop 2017</h1>
+            </div>
+        </div>
+        <div class="form_container">
+            <form action="register.php" method="post">
+                <div class="form_field">
+                    <input autofocus name="student_name" placeholder="Your name" type="text"/>
+                </div>
+                <div class="form_field">
+                    <input name="college_id" placeholder="College ID" type="text"/>
+                </div>
+                <div class="form_field">
+                    <select required>
+                      <option value="" style="font-weight=10px;">Select Your Branch</option>
+                      <option value="CS">Computer science</option>
+                      <option value="Mechanical">Mechanical</option>
+                      <option value="Electrical">Electrical</option>
+                      <option value="ECE">Electronics and communication</option>
+                     <option value="Chemical">Chemical</option>
+                     <option value="Metallurgy">Metallurgy</option>
+                    </select>
+                </div>
+                <div class="form_field">
+                    <input name="email" placeholder="Your e-mail" type="text"/>
+                </div>
+                <div class="form_field">
+                    <input name="contact" placeholder="Contact no." type="text"/>
+                </div>
+                <div class="form_field">
+                    <input value="Register" type="submit"/>
+                </div>
+            </form>
+        </div>
+            </div>
+    </body>
+</html>
