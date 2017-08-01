@@ -35,18 +35,25 @@
 	</div>
 	<div id="content">
 	    <form action="register.php" method="post">
-	        <input autofocus name="student_name" placeholder="Your name" type="text"/>
-	        <input name="id" placeholder="College ID" type="text"/>
-	        <select name="branch" required>
-	            <option value="">Select your branch</option>
-                <option value="cs">Computer Science</option>
-                <option value="mech">Mechanical</option>
-                <option value="ece">Electronics & Communication</option>
-                <option value="ee">ELectrical</option>
-                <option value="civil">Civil </option>
-                <option value="meta">Metallurgy</option>
+	        <input autofocus name="student_name" placeholder="Your name" type="text" required/>
+	        <input name="id" placeholder="College ID" type="text"/ required>
+	        <select name="branch" required="required">
+	            <option id="branch_option" value="">Select your branch</option>
+                <option id="branch_option" value="cs">Computer Science</option>
+                <option id="branch_option" value="mech">Mechanical</option>
+                <option id="branch_option" value="ece">Electronics & Communication</option>
+                <option id="branch_option" value="ee">ELectrical</option>
+                <option id="branch_option" value="civil">Civil </option>
+                <option id="branch_option" value="meta">Metallurgy</option>
             </select>
-		
+			<input name="email" placeholder="Your E-mail" type="text"/ >
+			<input name="contact_no" placeholder="Contact No." type="text"/ required>
+			
+			<select name="residence" required="required">
+	            <option id="branch_option" value="">----Hostler or Day scholar---</option>
+                <option id="branch_option" value="cs">Hostler</option>
+				<option id="branch_option" value="cs">Day Scholar</option>
+            </select>
 	</div>	
 
 	<div id="btn"><button class="register register2">Register</button></div>	
